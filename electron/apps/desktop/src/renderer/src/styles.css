@@ -1,0 +1,16 @@
+:root {
+  color: #182018;
+  background: #f4f1e8;
+  font-family: ui-rounded, "SF Pro Rounded", system-ui, sans-serif;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+main { max-width: 720px; margin: 0 auto; padding: 15vh 40px 48px; }
+.eyebrow { color: #517159; font-size: 12px; font-weight: 750; letter-spacing: .14em; }
+h1 { margin: 12px 0; font-family: Georgia, serif; font-size: clamp(42px, 8vw, 76px); font-weight: 500; letter-spacing: -.04em; }
+.lede { max-width: 580px; color: #4f594f; font-size: 19px; line-height: 1.55; }
+.status-card { display: flex; gap: 14px; margin-top: 42px; padding: 22px; border: 1px solid #d5d3c7; border-radius: 18px; background: rgba(255, 255, 255, .52); }
+.status-card p { margin: 6px 0 0; color: #657065; }
+.status-dot { width: 11px; height: 11px; margin-top: 5px; flex: 0 0 auto; border-radius: 50%; background: #899489; box-shadow: 0 0 0 5px rgba(137, 148, 137, .14); }
